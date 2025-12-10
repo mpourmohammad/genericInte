@@ -1,6 +1,8 @@
 package org.example;
 
-public class Person {
+import java.util.Iterator;
+
+public class Person implements Iterable {
     String name;
     int age;
 
@@ -23,5 +25,10 @@ public class Person {
 
     public String getFull(String a) {
         return this.name + ", " + a;
+    }
+
+    @Override
+    public Iterator iterator() {
+        return null;
     }
 }
