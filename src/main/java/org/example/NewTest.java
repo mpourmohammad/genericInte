@@ -6,6 +6,7 @@ import java.util.Collections;
 
 public class NewTest {
     public static void main(String[] args) {
+
         Collection<String> collection = new ArrayList<>();
         collection.add("a");
         collection.add("b");
